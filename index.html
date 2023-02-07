@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./fonts/Evogria.otf">
     <link rel="stylesheet" href="./css/style.css">
     <title>Medicel</title>
@@ -318,6 +320,17 @@
                     <div class="member">
                         <div class="member-image">
                             <img src="./image/image 16 (1).png" alt="">
+                            <div class="member-hover">
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </span>
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </span>
+                            </div>
                         </div>
                         <div class="member-info">
                             <h3 class="h-5 h-400">Dr.Antonio Stevenson</h3>
@@ -327,6 +340,17 @@
                     <div class="member">
                         <div class="member-image">
                             <img src="./image/image 23.png" alt="">
+                            <div class="member-hover">
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </span>
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </span>
+                            </div>
                         </div>
                         <div class="member-info">
                             <h3 class="h-5 h-400">Dr.Amelia Edwards</h3>
@@ -336,6 +360,17 @@
                     <div class="member">
                         <div class="member-image">
                             <img src="./image/image 20.png" alt="">
+                            <div class="member-hover">
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </span>
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </span>
+                            </div>
                         </div>
                         <div class="member-info">
                             <h3 class="h-5 h-400">Dr.Francisco Ingram</h3>
@@ -345,6 +380,18 @@
                     <div class="member">
                         <div class="member-image">
                             <img src="./image/image 19.png" alt="">
+                            <div class="member-hover">
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </span>
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </span>
+                                <span class="ellipse ellipse-3">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </span>
+                            </div>
+
                         </div>
                         <div class="member-info">
                             <h3 class="h-5 h-400">Dr. Hunter Farley</h3>
@@ -362,24 +409,24 @@
                 <div class="appointment-left">
                     <div class="appointment-left-info">
                         <span>MAKE AN aPPOINTMENT</span>
-                        <h2>Meet With Our Experts</h2>
-                        <p>We will send you a confirmation within 24 hours.</p>
-                        <span>Emergency?</span>
+                        <h2 class="h-400">Meet With Our Experts</h2>
+                        <p class="info-txt">We will send you a confirmation within 24 hours.</p>
+                        <span class="info-txt">Emergency?</span>
                         <a href="tel:1-2554-2356-33">Call 1-2554-2356-33</a>
                     </div>
                     <div>
-                        <form action="">
+                        <form class="appointment-form" action="">
                             <input type="text" placeholder="Full name*">
                             <input type="email" placeholder="Email Address*">
                             <input type="text" placeholder="Phone No*">
-                            <select placeholder="Choose Doctor">
-                                <option value=""></option>
+                            <select>
+                                <option value="">Choose Doctor</option>
                                 <option value="">Dr.Hunter Farley</option>
                                 <option value="">Dr.Francisco Ingram</option>
                                 <option value="">Dr.Antonio Stevenson</option>
                                 <option value="">Dr.Amelia Edwards</option>
                             </select>
-                            <input type="date">
+                            <input type="date" value="val">
                             <input type="time" placeholder="Select Time">
                             <button class="btn btn-1">Book Appointment now</button>
 
@@ -387,9 +434,293 @@
                     </div>
 
                 </div>
+                <div class="appointment-right">
+                    <img src="./image/image (1).png" alt="">
+                </div>
             </div>
         </div>
     </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <div class="testimonials-div">
+                <div class="testimonials-left">
+                    <img src="./image/image 25.png" alt="">
+                </div>
+                <div class="testimonials-right">
+                    <div class="reviews-header">
+                        <span class="section-name">TESTIMONIALS</span>
+                        <h2 class="h-1 h-400">Patients Reviews</h2>
+                    </div>
+                    <div class="patient-reviews">
+                        <img src="./image/quote.png" alt="">
+                        <p class="review-text">“Dr Dang was extremely welcoming, knowledgeable and friendly.Historically, drugs were discovered through identifying the active ingredient from traditional remedies or by serendipitous discovery. Later chemical libraries of synthetic
+                            small molecules.”
+                        </p>
+                        <div class="patient-profile">
+
+                            <img class="ellipse ellipse-1" src="./image/patient-profile.png" alt="">
+                            <div class="patient-info">
+                                <span class="patient-name">Mildred payne</span>
+                                <span class="patient-job">digital marketer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="partners">
+        <div class="container">
+            <div class="partners-div">
+                <img src="./image/parnet-logo/1.png" alt="">
+                <img src="./image/parnet-logo/2.png" alt="">
+                <img src="./image/parnet-logo/3.png" alt="">
+                <img src="./image/parnet-logo/4.png" alt="">
+                <img src="./image/parnet-logo/5.png" alt="">
+                <img src="./image/parnet-logo/6.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="blog-news">
+        <div class="container">
+            <div class="blog-news-div">
+                <div class="s-h-center">
+                    <span class="section-name">BLOG & NEWS</span>
+                    <h2 class="h-1 h-400">read our health news</h2>
+                </div>
+                <div class="blog-news-main">
+                    <div class="blog-news-left">
+                        <div class="blog-left">
+                            <div class="blog-main-div">
+                                <div class="blog-image">
+                                    <img src="./image/image 14 (1).png" alt="">
+                                </div>
+                                <div class="blog-image-botton">
+                                    <span>nov, 20, 2022</span>
+                                    <span>health care</span>
+                                </div>
+                                <div class="blog-image-info">
+                                    <h2 class="h-400 h-4">Simple Ways to Plan, Enjoy and Stick to a Healthy Diet
+                                    </h2>
+                                    <span class="info-txt">
+                                        We are provide excellent medical advices for your good health and we…
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="blog-main-div">
+                                <div class="blog-image">
+                                    <img src="./image/image 14 (1).png" alt="">
+                                </div>
+                                <div class="blog-image-botton">
+                                    <span>nov, 20, 2022</span>
+                                    <span>health care</span>
+                                </div>
+                                <div class="blog-image-info">
+                                    <h2 class="h-400 h-4">Simple Ways to Plan, Enjoy and Stick to a Healthy Diet
+                                    </h2>
+                                    <span class="info-txt">
+                                        We are provide excellent medical advices for your good health and we…
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="blog-news-right">
+                        <div class="blog-main-div">
+                            <div class="blog-image">
+                                <img src="./image/image 29.png" alt="">
+                            </div>
+                            <div>
+                                <div class="blog-image-botton">
+                                    <span>nov, 20, 2022</span>
+                                    <span>health care</span>
+                                </div>
+                                <div class="blog-image-info">
+                                    <h2 class="h-400 h-4">Tips For Overcoming High Fever In Children
+                                    </h2>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-main-div">
+                            <div class="blog-image">
+                                <img src="./image/image 29.png" alt="">
+                            </div>
+                            <div>
+                                <div class="blog-image-botton">
+                                    <span>nov, 20, 2022</span>
+                                    <span>health care</span>
+                                </div>
+                                <div class="blog-image-info">
+                                    <h2 class="h-400 h-4">Tips For Overcoming High Fever In Children
+                                    </h2>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-main-div">
+                            <div class="blog-image">
+                                <img src="./image/image 29.png" alt="">
+                            </div>
+                            <div>
+                                <div class="blog-image-botton">
+                                    <span>nov, 20, 2022</span>
+                                    <span>health care</span>
+                                </div>
+                                <div class="blog-image-info">
+                                    <h2 class="h-400 h-4">Tips For Overcoming High Fever In Children
+                                    </h2>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-main-div">
+                            <div class="blog-image">
+                                <img src="./image/image 29.png" alt="">
+                            </div>
+                            <div>
+                                <div class="blog-image-botton">
+                                    <span>nov, 20, 2022</span>
+                                    <span>health care</span>
+                                </div>
+                                <div class="blog-image-info">
+                                    <h2 class="h-400 h-4">Tips For Overcoming High Fever In Children
+                                    </h2>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <div class="newsletter-info">
+                        <span class="section-name">NEWSLETTER SUBSCRIBE</span>
+                        <h2 class="h-1 h-400">get more update to subscribe us</h2>
+                    </div>
+                    <div class="newsletter-button">
+                        <div>
+                            <img src="./image/input-icon.png" alt="">
+                            <input type="email" placeholder="Email Address...">
+                        </div>
+                        <button class="btn btn-1">subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-main-left">
+                    <div class="f-main-logo">
+                        <img src="./image/logo2.png" alt="">
+                    </div>
+                    <p class="info-txt">
+                        Ipsum dolor sit amet, consecterelit, sed do eiusmod tempor incididunt.Ipsum dolor sit amet consecterelit, sed do eiusmod tempor incididunt.
+
+                    </p>
+                    <div class="f-main-contact">
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <span class="info-txt">+1-2345-3455-33</span>
+                        </div>
+                    </div>
+                    <div class="f-main-contact">
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <span class="info-txt">contact@medikel.com</span>
+                        </div>
+                    </div>
+                    <div class="f-main-contact">
+                        <div>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="info-txt">1810 Kings WayKing Street,
+                                5th Avenue, New Yor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-main-right">
+                    <div class="f-main-r-div">
+                        <h2 class="h-400">quick link</h2>
+                        <ul>
+                            <li><a href="#" class="info-txt">About Us</a></li>
+                            <li><a href="#" class="info-txt">Services</a></li>
+                            <li><a href="#" class="info-txt">Our Pricing</a></li>
+                            <li><a href="#" class="info-txt">Our Gallery</a></li>
+                            <li><a href="#" class="info-txt">Appointment</a></li>
+                            <li><a href="#" class="info-txt">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="f-main-r-div">
+                        <h2 class="h-400">opening hours</h2>
+                        <ul>
+                            <li><a href="#" class="info-txt">Lung Diseases</a></li>
+                            <li><a href="#" class="info-txt">Heart Diseases                            </a></li>
+                            <li><a href="#" class="info-txt">Orthopaedic</a></li>
+                            <li><a href="#" class="info-txt">Dental Care</a></li>
+                            <li><a href="#" class="info-txt">Sport Injury</a></li>
+                            <li><a href="#" class="info-txt">General Surgery</a></li>
+                        </ul>
+                    </div>
+                    <div class="f-main-r-div">
+                        <h2 class="h-400">our services</h2>
+                        <ul>
+                            <li><a href="#" class="info-txt">Mon - Tues</a><span class="info-txt">08:00 AM - 05:00PM</span></li>
+                            <li><a href="#" class="info-txt">Tues- Wed</a><span class="info-txt">08:00 AM - 05:00PM</span></li>
+                            <li><a href="#" class="info-txt">Wed- Tues</a><span class="info-txt">08:00 AM - 05:00PM</span></li>
+                            <li><a href="#" class="info-txt">Thurs- Fri</a><span class="info-txt">08:00 AM - 05:00PM</span></li>
+                            <li><a href="#" class="info-txt">Fri- Sat</a><span class="info-txt">08:00 AM - 05:00PM</span></li>
+                            <li><a href="#" class="info-txt">Sat-Sun</a><span class="info-txt">10:00 AM - 08:00PM</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-div">
+                    <ul>
+                        <li>
+                            <a href="#" class="ellipse">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ellipse">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ellipse">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="ellipse">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-bottom-div">
+                    <p class="info-txt">Copyright ©2022 <span>Medikel</span>. All Rights Reserved</p>
+                </div>
+                <div class="footer-bottom-div div3">
+                    <span class="info-txt">Terms & Condition</span>
+                    <i></i>
+                    <span class="info-txt">Privacy Policy</span>
+                </div>
+            </div>
+
+
+    </footer>
 
 </body>
 
